@@ -1,0 +1,41 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static int sign(int number) {
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+            final int n = scanner.nextInt();
+            System.out.println(sign(n));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2730#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:16: error: incompatible types: unexpected return value
+                return one;
+                       ^
+    Main.java:18: error: incompatible types: unexpected return value
+                return minusOne;
+                       ^
+    Main.java:20: error: incompatible types: unexpected return value
+                return zero;
+                       ^
+    Main.java:28: error: 'void' type not allowed here
+            System.out.println(sign(n));
+                                   ^
+    4 errors
+  time: Mon, 02 Nov 2020 12:16:17 UTC
+record: -1

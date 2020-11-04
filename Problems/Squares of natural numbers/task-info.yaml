@@ -1,0 +1,25 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2228
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:15: error: variable k is already defined in method main(String[])
+                int k = Math.sqrt(i);
+                    ^
+    Main.java:15: error: incompatible types: possible lossy conversion from double to int
+                int k = Math.sqrt(i);
+                                 ^
+    2 errors
+  time: Mon, 26 Oct 2020 08:47:23 UTC
+record: -1
